@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GrandLuxe
 
-## Getting Started
+GrandLuxe is a modern web application built with **Next.js**, created as part of my journey into full-stack development.
+The project focuses on learning how **frontend and backend logic can be built within the same framework using Next.js.**
 
-First, run the development server:
+## 🚀 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+* **Next.js** – Full-stack React framework
+* **React.js** – Component-based UI
+* **JavaScript (ES6+)** – Application logic
+* **Next.js API Routes** – Backend endpoints
+* **CSS / Tailwind (if used)** – Styling
+* **Git & GitHub** – Version control
+
+## 📌 Project Goals
+
+This project was built to learn:
+
+* How **Next.js handles backend logic**
+* Creating **API routes inside the project**
+* Handling **requests and responses**
+* Structuring a **full-stack application**
+* Understanding the communication between **frontend and backend**
+
+## 📂 Project Structure
+
+```
+GrandLuxe
+│
+├── app / pages
+│   ├── page.js
+│   ├── layout.js
+│   └── other routes
+│
+├── components
+│
+├── public
+│
+├── styles
+│
+└── pages/api
+    └── api routes
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Clone the repository:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+git clone https://github.com/aditya-DevD/GrandLuxe.git
+```
 
-## Learn More
+Move into the project folder:
 
-To learn more about Next.js, take a look at the following resources:
+```
+cd GrandLuxe
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Install dependencies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+npm install
+```
 
-## Deploy on Vercel
+Run the development server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open in browser:
+
+```
+http://localhost:3000
+```
+
+## 📖 Learning Focus
+
+This repository is part of my learning process while exploring **Next.js backend development** and modern full-stack architecture.
+
+## 👨‍💻 Author
+
+Aditya Pandey
+Frontend Developer
+
+Currently working with **React.js** and learning **Next.js for full-stack development**.
+
+## 📜 License
+
+MIT License
